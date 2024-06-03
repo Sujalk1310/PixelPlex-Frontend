@@ -7,7 +7,7 @@ const getTokenAndUID = () => {
 };
 
 const instance = axios.create({
-    baseURL: 'http://192.168.29.114:8000/',
+    baseURL: 'https://pixelplex-backend-production.up.railway.app/',
     withCredentials: true,
 });
 
