@@ -61,7 +61,7 @@ const Dashboard = () => {
                         <img loading='lazy' width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/OOjs_UI_icon_logOut-ltr-invert.svg/1200px-OOjs_UI_icon_logOut-ltr-invert.svg.png" />
                     </p>
                 </div>
-                <div title="Project repo link" onClick={() => location.href="https://github.com/Sujalk1310"} className='w-[65px] h-[60px] hover:scale-110 active:scale-90 duration-100 border-4 max-w-[300px] shadow-xl border-black bg-white rounded-2xl'>
+                <div title="Project repo link" onClick={() => location.href="https://github.com/Sujalk1310/PixelPlex"} className='w-[65px] h-[60px] hover:scale-110 active:scale-90 duration-100 border-4 max-w-[300px] shadow-xl border-black bg-white rounded-2xl'>
                     <p className='py-1 px-2 flex items-center text-3xl'>
                         <img loading='lazy' width="45px" src="https://www.pngmart.com/files/23/Github-Logo-PNG-File.png" />
                     </p>
