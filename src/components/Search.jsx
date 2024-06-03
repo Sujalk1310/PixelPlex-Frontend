@@ -34,7 +34,7 @@ const Search = () => {
         setLoading(true);
         setSearched(true);
         try {
-            const response = await axios.get(`http://www.omdbapi.com/?apikey=463854ee&s=${title}&y=${year}`);
+            const response = await axios.get(`https://www.omdbapi.com/?apikey=463854ee&s=${title}&y=${year}`);
             if (response.data.Response === "True") {
                 setMovies(response.data.Search);
                 setScroller(true);

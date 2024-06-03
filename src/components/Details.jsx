@@ -94,7 +94,7 @@ const Details = ({ movieId, onClose }) => {
             return;
         }
         try {
-            const response = await axios.get(`http://www.omdbapi.com/?apikey=463854ee&i=${movieId}`);
+            const response = await axios.get(`https://www.omdbapi.com/?apikey=463854ee&i=${movieId}`);
             if (response.data.Response === "True") {
                 setMovie(response.data);
                 setLoader(false);
